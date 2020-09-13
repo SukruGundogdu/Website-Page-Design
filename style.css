@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:#35424a;
+    border-bottom:  3px solid #8A3A5B;;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 70px;
+    color: white;
+    padding-top: 35px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+span {
+    color: #8A3A5B;
+    font-weight: bold;
+}
+
+.right {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.link1 {
+    color: #8A3A5B;
+}
+
+a:hover {
+    color: gray;
+}
+
+.first-section {
+    background-image: url(./img/showcase.jpg);
+    background-repeat: no-repeat;
+    min-height: 400px;
+    text-align: center;
+    background-position-x: -50px;
+}
+
+.image-text {
+    overflow: hidden;
+}
+
+#image-head {
+    font-size: 55px;
+    color:white;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+#first-p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 20px;
+}
+
+.second-section {
+    background-color:#35424a;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#mail {
+    width: 250px;
+    padding: 10px;
+    border: none;
+}
+
+#submit {
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    background-color: #a9508b;
+    color: white;
+    border: none;
+    margin-left: 4px;
+}
+
+img {
+    width: 100px;
+}
+
+.logo1, .logo2, .logo3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.logolar {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 50px;
+    border: 2px solid red;
+}
+
+
